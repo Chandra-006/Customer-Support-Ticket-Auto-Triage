@@ -1,4 +1,6 @@
-import pandas as pd
+import re
+import pandas as pd  # Import pandas for data manipulation
+
 import re
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -121,3 +123,4 @@ with open("evaluation_metrics.json", "w") as f:
 
 print("\n✅ Model and vectorizer saved successfully!")
 print("✅ Evaluation metrics saved to evaluation_metrics.json")
+

@@ -55,7 +55,7 @@ The model classifies tickets into 5 categories:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone **Repository:** https://github.com/Chandra-006/Customer-Support-Ticket-Auto-Triage.git
 cd customer-support-ticket-auto-triage
 ```
 
@@ -317,33 +317,9 @@ Ensure all dependencies are installed:
 pip install -r requirements.txt
 ```
 
-## 📝 License
 
-This project is part of a machine learning assessment.
 
-## ⚠️ Known Limitations
 
-- NLTK is included in requirements for potential future use but is not used in the current codebase.
-- The model is based on Logistic Regression; deep learning models (TensorFlow/PyTorch) are not implemented as they are not required for the current scope.
-- No automated unit tests or logging are included by default.
 
-## 👤 Author
 
-Customer Support Ticket Auto-Triage Project
-
-## 📧 Submission
-
-**Submission Email:** support@levelmasters.ai  
-**Subject Line:** "RdML Assessment – Support Ticket Auto-Triage – [Your Full Name]"
-
-**Submission Requirements:**
-- ✅ Code Repository: Git repository with clear commit messages
-- ✅ Comprehensive README: Detailed setup, execution, and model usage
-- ✅ Model & Data Access: Model checkpoint and data files easily accessible
-
-**Repository:** https://github.com/Chandra-006/Customer-Support-Ticket-Auto-Triage.git
-
----
-
-**Last Updated**: 2025-12-24
 
