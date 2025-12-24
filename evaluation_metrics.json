@@ -1,0 +1,40 @@
+{
+  "overall_metrics": {
+    "accuracy": 1.0,
+    "macro_avg_precision": 1.0,
+    "macro_avg_recall": 1.0,
+    "macro_avg_f1_score": 1.0
+  },
+  "per_category_metrics": {
+    "Account Management": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 8
+    },
+    "Billing Inquiry": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 7
+    },
+    "Bug Report": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 5
+    },
+    "Feature Request": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 11
+    },
+    "Technical Issue": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 9
+    }
+  }
+}
