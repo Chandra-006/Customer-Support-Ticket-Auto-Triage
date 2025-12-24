@@ -318,7 +318,15 @@ Customer Support Ticket Auto-Triage Project
 
 ## 📧 Submission
 
-For submission details, refer to the project requirements document.
+**Submission Email:** support@levelmasters.ai  
+**Subject Line:** "RdML Assessment – Support Ticket Auto-Triage – [Your Full Name]"
+
+**Submission Requirements:**
+- ✅ Code Repository: Git repository with clear commit messages
+- ✅ Comprehensive README: Detailed setup, execution, and model usage
+- ✅ Model & Data Access: Model checkpoint and data files easily accessible
+
+**Repository:** https://github.com/Chandra-006/Customer-Support-Ticket-Auto-Triage.git
 
 ---
 
