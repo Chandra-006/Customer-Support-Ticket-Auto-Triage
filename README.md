@@ -40,13 +40,15 @@ The model classifies tickets into 5 categories:
 
 ## 🔧 Technical Requirements
 
-- **Python**: 3.8 or higher
-- **Key Libraries**:
+**Python**: 3.8 or higher
+**Key Libraries**:
   - scikit-learn (1.8.0)
   - pandas (2.3.3)
   - numpy (2.4.0)
   - Flask (3.1.2)
-  - NLTK (3.9.2) - Optional, for advanced text processing
+  - NLTK (3.9.2) *(optional, not used by default)*
+
+**Note:** TensorFlow and PyTorch are *not required* for this implementation, as the project uses scikit-learn and Logistic Regression.
 
 ## 📦 Installation
 
@@ -285,6 +287,13 @@ Model performance is evaluated using:
 - **Macro-Averaged Metrics**: Balanced evaluation across all categories
 - **Latency**: Real-time prediction response time
 
+## 🧪 Unit Testing & Logging (Future Enhancements)
+
+- Add automated unit tests for API endpoints and model logic
+- Integrate logging for production monitoring and debugging
+
+These are recommended for further robustness but are not required for current compliance.
+
 ## 🐛 Troubleshooting
 
 ### Model files not found
@@ -312,6 +321,12 @@ pip install -r requirements.txt
 
 This project is part of a machine learning assessment.
 
+## ⚠️ Known Limitations
+
+- NLTK is included in requirements for potential future use but is not used in the current codebase.
+- The model is based on Logistic Regression; deep learning models (TensorFlow/PyTorch) are not implemented as they are not required for the current scope.
+- No automated unit tests or logging are included by default.
+
 ## 👤 Author
 
 Customer Support Ticket Auto-Triage Project
@@ -330,5 +345,5 @@ Customer Support Ticket Auto-Triage Project
 
 ---
 
-**Last Updated**: 2025-01-XX
+**Last Updated**: 2025-12-24
 
